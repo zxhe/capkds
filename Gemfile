@@ -54,6 +54,7 @@ group :development do
   gem 'capistrano-bundler', '~> 1.1.0'
   gem 'capistrano-rvm', '~> 0.1.2'
   gem 'capistrano3-unicorn', '~> 0.2.0'# Add this if you're using rbenv# gem 'capistrano-rbenv', '~> 2.0.0'
+  gem 'capistrano3-puma', require: false
   gem 'capistrano-sidekiq'
 end
 
