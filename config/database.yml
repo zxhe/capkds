@@ -13,12 +13,12 @@ development:
 
 production:
   <<: *default
-  database: captk_pro
+  database: captk
   # username: my_app
   # password: <%= ENV['MY_APP_DATABASE_PASSWORD'] %>
 
 test:
   <<: *default
-  database: captk_test
+  database: captk
 
 # server "47.93.29.146:55569"
