@@ -2,7 +2,7 @@
 lock "3.8.1"
 
 set :application, "captk"
-set :repo_url, "git@github.com:zxhe/captk.git" #git仓库的存放地址
+set :repo_url, "git@github.com:zxhe/captk.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
